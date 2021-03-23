@@ -499,10 +499,10 @@
     "Change cannula soon": "Byt infusionsset snart",
     "Cannula age %1 hours": "Infusionsset tid %1 timmar",
     "Inserted": "Applicerad",
-    "CAGE": "Nål",
+    "CAGE": "Pumpbyte",
     "COB": "COB",
     "Last Carbs": "Senaste kolhydrater",
-    "IAGE": "Insulinålder",
+    "IAGE": "Insulinbyte",
     "Insulin reservoir change overdue!": "Insulinbytestid överskriden",
     "Time to change insulin reservoir": "Dags att byta insulinreservoar",
     "Change insulin reservoir soon": "Byt insulinreservoar snart",
@@ -519,7 +519,7 @@
     "%1h ago": "%1h sedan",
     "%1d ago": "%1d sedan",
     "RETRO": "RETRO",
-    "SAGE": "Sensor",
+    "SAGE": "Sensorbyte",
     "Sensor change/restart overdue!": "Sensor byte/omstart överskriden!",
     "Time to change/restart sensor": "Dags att byta/starta om sensorn",
     "Change/restart sensor soon": "Byt/starta om sensorn snart",
@@ -703,5 +703,6 @@
     "Security issue": "Säkerhetsproblem",
     "Weak API_SECRET detected. Please use a mix of small and CAPITAL letters, numbers and non-alphanumeric characters such as !#%&/ to reduce the risk of unauthorized access. The minimum length of the API_SECRET is 12 characters.": "Svag API_SECRET upptäckt. Använd en blandning av små och KAPITALA bokstäver, siffror och icke-alfanumeriska tecken som !#%&/ för att minska risken för obehörig åtkomst. Den minsta längden på API_SECRET är 12 tecken.",
     "less than 1": "mindre än 1",
+    "BAGE": "Batteribyte",
     "MongoDB password and API_SECRET match. This is a really bad idea. Please change both and do not reuse passwords across the system.": "MongoDB lösenordet och API_SECRET matchar. Detta är en riktigt dålig idé. Vänligen ändra båda och återanvänd inte lösenorden i systemet."
 }
