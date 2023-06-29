@@ -37,6 +37,6 @@ window.Nightscout.foodclient = require('../lib/food/food');
 console.info('Nightscout bundle ready');
 
 // Needed for Hot Module Replacement
-if(typeof(module.hot) !== 'undefined') {
+if(typeof(module.hot) !== 'Nightscout') {
     module.hot.accept()
 }
