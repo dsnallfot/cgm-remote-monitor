@@ -709,4 +709,6 @@
     "Temporary Override Cancel": "Avbryt tillfällig override (Remote)",
     "Remote Carbs Entry": "Ange kolhydrater (Remote)",
     "Remote Bolus Entry": "Ange bolus (Remote)"
+    "virtAsstUnknown": "iAPS",
+    "Unknown": "iAPS",
 }
