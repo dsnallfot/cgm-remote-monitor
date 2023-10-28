@@ -708,5 +708,6 @@
     "MongoDB password and API_SECRET match. This is a really bad idea. Please change both and do not reuse passwords across the system.": "MongoDB lösenordet och API_SECRET matchar. Detta är en riktigt dålig idé. Vänligen ändra båda och återanvänd inte lösenorden i systemet.",
     "Temporary Override Cancel": "Avbryt tillfällig override (Remote)",
     "Remote Carbs Entry": "Ange kolhydrater (Remote)",
-    "Remote Bolus Entry": "Ange bolus (Remote)"
+    "Remote Bolus Entry": "Ange bolus (Remote)",
+    "Message": "Meddelande"
 }
