@@ -651,7 +651,7 @@
     "Database size is %1 MiB out of %2 MiB. Please backup and clean up database!": "Databasens storlek är %1 MiB av %2 MiB. Säkerhetskopiera och rensa upp databasen!",
     "Database file size": "Databasens filstorlek",
     "%1 MiB of %2 MiB (%3%)": "%1 MiB av %2 MiB (%3%)",
-    "Data size": "Datastorlek",
+    "Data size": "Databas",
     "virtAsstDatabaseSize": "%1 MiB. Det är %2% av tillgänglig databasutrymme.",
     "virtAsstTitleDatabaseSize": "Databasens filstorlek",
     "Carbs/Food/Time": "Kolhydrater/Mat/Tid",
