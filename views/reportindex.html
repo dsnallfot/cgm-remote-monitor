@@ -135,36 +135,40 @@
   <script src="/report/js/loopalyzer.js"></script>
   <script src="/js/reportinit.js"></script>
 
-  <script>
-    function getQueryParams() {
-      var params = {};
-      window.location.search.substring(1).split('&').forEach(function(pair) {
-        var keyValue = pair.split('=');
-        params[decodeURIComponent(keyValue[0])] = decodeURIComponent(keyValue[1] || '');
-      });
-      return params;
-    }
-  
-    document.addEventListener("DOMContentLoaded", function() {
-      var params = getQueryParams();
-  
-      if (params['hideMenu'] === 'true') {
-        // Hide the elements you don't want to display by ID
-        var elementsToHide = ['toolbarContainer', 'tabnav', 'reportMenu', 'rp_show', 'info'];
-        elementsToHide.forEach(function(id) {
-          var el = document.getElementById(id);
-          if (el) {
-            el.style.display = 'none';
-          }
+    <!-- Enhanced Script to Hide Elements Based on URL Parameter -->
+    <script>
+      function getQueryParams() {
+        var params = {};
+        window.location.search.substring(1).split('&').forEach(function(pair) {
+          var keyValue = pair.split('=');
+          params[decodeURIComponent(keyValue[0])] = decodeURIComponent(keyValue[1] || '');
         });
-  
-        // Hide the authentication-status div by class using jQuery
-        //$('.authentication-status').hide();
-  
-        // Clear the page title
-        document.title = '';
+        return params;
       }
-    });
-  </script>
+  
+      document.addEventListener("DOMContentLoaded", function() {
+        var params = getQueryParams();
+  
+        if (params['hideMenu'] === 'true') {
+          // Hide elements by ID
+          var elementsToHide = ['toolbarContainer', 'tabnav', 'reportMenu', 'rp_show', 'info'];
+          elementsToHide.forEach(function(id) {
+            var el = document.getElementById(id);
+            if (el) {
+              el.style.display = 'none';
+            }
+          });
+  
+          // Hide the authentication-status div by class
+          var authStatusElements = document.getElementsByClassName('authentication-status');
+          for (var i = 0; i < authStatusElements.length; i++) {
+            authStatusElements[i].style.display = 'none';
+          }
+  
+          // Clear the page title
+          document.title = '';
+        }
+      });
+    </script>
 </body>
 </html>  
