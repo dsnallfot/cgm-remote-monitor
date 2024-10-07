@@ -135,7 +135,6 @@
   <script src="/report/js/loopalyzer.js"></script>
   <script src="/js/reportinit.js"></script>
 
-  <!-- Add the script to hide elements based on URL parameter -->
   <script>
     function getQueryParams() {
       var params = {};
@@ -145,12 +144,12 @@
       });
       return params;
     }
-
+  
     document.addEventListener("DOMContentLoaded", function() {
       var params = getQueryParams();
-
+  
       if (params['hideMenu'] === 'true') {
-        // Hide the elements you don't want to display
+        // Hide the elements you don't want to display by ID
         var elementsToHide = ['toolbarContainer', 'tabnav', 'reportMenu', 'rp_show', 'info'];
         elementsToHide.forEach(function(id) {
           var el = document.getElementById(id);
@@ -158,7 +157,10 @@
             el.style.display = 'none';
           }
         });
-
+  
+        // Hide the authentication-status div by class using jQuery
+        $('.authentication-status').hide();
+  
         // Clear the page title
         document.title = '';
       }
