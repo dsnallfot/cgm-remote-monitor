@@ -31,12 +31,16 @@
   <%- include('preloadCSS')%>
   
 </head>
-  <body>
+<body id="reportBody">
+  <div id="toolbarContainer">
     <%- include('partials/toolbar') %>
+  </div>
 
   <ul id="tabnav">
   </ul>
   <main>
+    <!-- Wrap the elements you want to hide inside a div with an ID -->
+    <div id="reportMenu">
     <table>
       <tr>
         <td><input type="checkbox" id="rp_enabledate" checked></td>
@@ -117,6 +121,7 @@
       </tr>
     </table>
     <button id="rp_show" class="translate">Show</button>
+  </div>
     <div id="info"></div>
     <hr>
     <div id="pluginchartplaceholders"></div>
@@ -129,5 +134,35 @@
   <script src="/report/js/flotcandle.js"></script>
   <script src="/report/js/loopalyzer.js"></script>
   <script src="/js/reportinit.js"></script>
+
+  <!-- Add the script to hide elements based on URL parameter -->
+  <script>
+    function getQueryParams() {
+      var params = {};
+      window.location.search.substring(1).split('&').forEach(function(pair) {
+        var keyValue = pair.split('=');
+        params[decodeURIComponent(keyValue[0])] = decodeURIComponent(keyValue[1] || '');
+      });
+      return params;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      var params = getQueryParams();
+
+      if (params['hideMenu'] === 'true') {
+        // Hide the elements you don't want to display
+        var elementsToHide = ['toolbarContainer', 'tabnav', 'reportMenu', 'rp_show'];
+        elementsToHide.forEach(function(id) {
+          var el = document.getElementById(id);
+          if (el) {
+            el.style.display = 'none';
+          }
+        });
+
+        // Clear the page title
+        document.title = '';
+      }
+    });
+  </script>
 </body>
 </html>  
