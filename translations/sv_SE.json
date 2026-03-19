@@ -353,7 +353,7 @@
     "Duration of Insulin Activity (DIA)": "Verkningstid för insulin (DIA)",
     "Represents the typical duration over which insulin takes effect.  Varies per patient and per insulin type. Typically 3-4 hours for most pumped insulin and most patients. Sometimes also called insulin lifetime.": "Beskriver under hur lång tid insulinet verkar. Varierar mellan patienter. Typisk varaktighet 3-4 timmar.",
     "Insulin to carb ratio (I:C)": "Insulin-Kolhydratskvot",
-    "Hours:": " Timmar: ",
+    "Hours:": "Timmar:",
     "hours": "timmar",
     "g/hour": "g/timme",
     "g carbs per U insulin. The ratio of how many grams of carbohydrates are offset by each U of insulin.": "gram kolhydrater per enhet insulin. Antal gram kolhydrater varje enhet insulin sänker",
