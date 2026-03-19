@@ -210,7 +210,7 @@ a, a:visited, a:link {
 
 .pill {
   white-space: nowrap;
-  border-radius: 5px;
+  border-radius: 999px;
   border: 2px solid #15344c;
   background: #15344c;
   display: inline-block;
@@ -227,7 +227,7 @@ a, a:visited, a:link {
   font-style: normal;
   font-weight: bold;
   background: #000;
-  border-radius: 3px;
+  border-radius: 999px;
 }
 
 .pill label {
