@@ -424,7 +424,7 @@ a, a:visited, a:link {
 .focus-range {
   list-style: none;
   margin: 4px;
-  padding: 0;
+  padding: 2px;
   color: #8d96a4;
   width: 40%;
   text-align: center;
