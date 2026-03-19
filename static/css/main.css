@@ -219,7 +219,7 @@ a, a:visited, a:link {
 }
 
 .pill em, .pill label {
-  padding: 2px 3px;
+  padding: 2px 6px;
   white-space: nowrap;
 }
 
@@ -424,7 +424,7 @@ a, a:visited, a:link {
 .focus-range {
   list-style: none;
   margin: 4px;
-  padding: 2px;
+  padding: 6px;
   color: #8d96a4;
   width: 40%;
   text-align: center;
