@@ -437,7 +437,7 @@ a, a:visited, a:link {
   border-radius: 999px;
   border: 2px solid #001627;
   cursor: pointer;
-  padding: 0px 4px;
+  padding: 0px 2px;
 }
 
 .focus-range .selected {
