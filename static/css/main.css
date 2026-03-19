@@ -423,8 +423,8 @@ a, a:visited, a:link {
 
 .focus-range {
   list-style: none;
-  margin: 2px;
-  padding: 2px;
+  margin: 0px;
+  padding: 0px;
   color: #8d96a4;
   width: 40%;
   text-align: center;
