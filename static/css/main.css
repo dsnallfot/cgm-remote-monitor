@@ -211,8 +211,8 @@ a, a:visited, a:link {
 .pill {
   white-space: nowrap;
   border-radius: 5px;
-  border: 2px solid #808080;
-  background: #808080;
+  border: 2px solid #15344c;
+  background: #15344c;
   display: inline-block;
   margin-bottom: 4px;
   padding: 2px 0;
@@ -231,7 +231,7 @@ a, a:visited, a:link {
 }
 
 .pill label {
-  color: #000;
+  color: #FFF;
 }
 
 .container .pill.warn em {
@@ -284,8 +284,8 @@ a, a:visited, a:link {
 }
 
 .statusPills .pill {
-  background: #808080;
-  border-color: #808080;
+  background: #15344c;
+  border-color: #15344c;
   margin-right: 5px;
 }
 

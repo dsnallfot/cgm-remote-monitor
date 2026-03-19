@@ -227,8 +227,8 @@ h1, legend,
   padding: 0 15px 0 40px;
   position: relative;
   align-items: center;
-  background: url("../images/logo2.png") no-repeat 3px center #333;
-  border-bottom: 1px solid #999;
+  background: url("../images/logo2.png") no-repeat 3px center #00243e;
+  border-bottom: 1px solid #15344b;
   justify-content: space-between;
 }
 
