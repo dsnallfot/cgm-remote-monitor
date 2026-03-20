@@ -563,19 +563,20 @@ a, a:visited, a:link {
 
   .statusBox {
     width: auto;
+    padding-bottom: 8px;
   }
 
   .bgStatus .currentBG {
-    font-size: 70px;
+    font-size: 60px;
     line-height: 60px;
   }
 
   .bgStatus .currentBG.bg-limit, .bgStatus .currentBG.icon-hourglass {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .bgStatus .pill.direction {
-    font-size: 70px;
+    font-size: 50px;
     line-height: 50px;
   }
 
@@ -590,7 +591,7 @@ a, a:visited, a:link {
   }
 
   .status {
-    font-size: 70px;
+    font-size: 60px;
   }
 }
 
@@ -614,18 +615,18 @@ a, a:visited, a:link {
   }
 
   .bgStatus .currentBG {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 60px;
+    line-height: 60px;
   }
 
   .bgStatus .currentBG.bg-limit, .bgStatus .currentBG.icon-hourglass {
-    font-size: 70px;
+    font-size: 60px;
     padding-left: 20px;
   }
 
   .bgStatus .pill.direction {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 50px;
+    line-height: 50px;
   }
 
   .bgStatus .majorPills {
@@ -650,8 +651,8 @@ a, a:visited, a:link {
   }
 
   .status {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 60px;
+    line-height: 60px;
     width: auto;
     display: block;
     margin: 0;
@@ -661,7 +662,7 @@ a, a:visited, a:link {
   .statusBox {
     width: auto;
     padding-top: 0;
-    padding-bottom: 6px;
+    padding-bottom: 8px;
   }
 
   #currentTime {
