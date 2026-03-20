@@ -652,11 +652,13 @@ a, a:visited, a:link {
 
   .status {
     padding-top: 0;
-    font-size: 20px;
+    font-size: 60px;
   }
 
   .statusBox {
     width: auto;
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
 
   #currentTime {
