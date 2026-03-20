@@ -571,11 +571,11 @@ a, a:visited, a:link {
   }
 
   .bgStatus .currentBG.bg-limit, .bgStatus .currentBG.icon-hourglass {
-    font-size: 50px;
+    font-size: 70px;
   }
 
   .bgStatus .pill.direction {
-    font-size: 50px;
+    font-size: 70px;
     line-height: 50px;
   }
 
