@@ -592,7 +592,6 @@ a, a:visited, a:link {
 
   .status {
     font-size: 60px;
-    padding-bottom: 6px;
   }
 }
 
@@ -653,12 +652,11 @@ a, a:visited, a:link {
 
   .status {
     font-size: 55px;
-    line-height: 55px;
+    line-height: 65px;
     width: auto;
     display: block;
     margin: 0;
     padding-top: 0;
-    padding-bottom: 6px;
   }
 
   .statusBox {
