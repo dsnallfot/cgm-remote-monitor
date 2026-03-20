@@ -273,8 +273,8 @@ a, a:visited, a:link {
 }
 .statusBox {
   text-align: center;
-  width: 40%;
-  padding-top: 4px;
+  width: 50%;
+  padding-top: 2px;
   padding-bottom: 8px;
 }
 .statusPills {
@@ -656,7 +656,6 @@ a, a:visited, a:link {
   }
 
   .statusBox {
-    width: auto;
     padding-bottom: 8px;
   }
 
