@@ -281,6 +281,7 @@ a, a:visited, a:link {
   font-size: 20px;
   line-height: 23px;
   margin-left: 5px;
+  padding-top: 8px;
 }
 
 .loading .statusPills {
