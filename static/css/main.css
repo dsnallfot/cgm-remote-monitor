@@ -590,8 +590,7 @@ a, a:visited, a:link {
   }
 
   .status {
-    font-size: 50px;
-    width: 250px;
+    font-size: 70px;
   }
 }
 
@@ -651,12 +650,18 @@ a, a:visited, a:link {
   }
 
   .status {
-    padding-top: 0;
     font-size: 70px;
+    line-height: 70px;
+    width: auto;
+    display: block;
+    margin: 0;
+    padding-top: 0;
   }
 
   .statusBox {
-    padding-bottom: 8px;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 6px;
   }
 
   #currentTime {
