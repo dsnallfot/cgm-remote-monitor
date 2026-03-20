@@ -267,15 +267,15 @@ a, a:visited, a:link {
 .status {
   color: #8d97a5;
   font-size: 120px;
-  line-height: 100px;
-  vertical-align: middle;
   white-space: normal;
+  line-height: 1;
   margin: 0;
-  padding: 0;
 }
 .statusBox {
   text-align: center;
   width: 40%;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .statusPills {
   font-size: 20px;
