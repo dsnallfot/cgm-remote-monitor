@@ -592,6 +592,7 @@ a, a:visited, a:link {
 
   .status {
     font-size: 60px;
+    padding-bottom: 6px;
   }
 }
 
@@ -615,18 +616,18 @@ a, a:visited, a:link {
   }
 
   .bgStatus .currentBG {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 55px;
+    line-height: 55px;
   }
 
   .bgStatus .currentBG.bg-limit, .bgStatus .currentBG.icon-hourglass {
-    font-size: 60px;
+    font-size: 55px;
     padding-left: 20px;
   }
 
   .bgStatus .pill.direction {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 45px;
+    line-height: 45px;
   }
 
   .bgStatus .majorPills {
@@ -651,12 +652,13 @@ a, a:visited, a:link {
   }
 
   .status {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 55px;
+    line-height: 55px;
     width: auto;
     display: block;
     margin: 0;
     padding-top: 0;
+    padding-bottom: 6px;
   }
 
   .statusBox {
