@@ -93,7 +93,7 @@ html, body {
   min-height: 100vh;
   background: linear-gradient(to right, #051525 0%, #09233C 50%, #051525 100%);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 body {
