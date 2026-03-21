@@ -96,17 +96,9 @@ html, body {
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  background: linear-gradient(to right, #051525 0%, #09233C 50%, #051525 100%);
   color: #bdbdbd;
   position: relative;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  background: linear-gradient(to right, #051525 0%, #09233C 50%, #051525 100%);
-  background-repeat: no-repeat;
 }
 
 .container {
