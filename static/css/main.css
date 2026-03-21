@@ -90,16 +90,23 @@
 html, body {
   margin: 0;
   padding: 0;
-  min-height: 100vh;
-  background: linear-gradient(to right, #051525 0%, #09233C 50%, #051525 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  min-height: 100%;
+  background: #051525; /* fallback som matchar gradientens ytterkant */
 }
 
 body {
   font-family: 'Ubuntu', sans-serif;
   color: #bdbdbd;
-  background: transparent;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(to right, #051525 0%, #09233C 50%, #051525 100%);
+  background-repeat: no-repeat;
 }
 
 .container {
