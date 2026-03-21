@@ -94,7 +94,7 @@ html, body {
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background: #001627;
+  background: linear-gradient(to right, #051525 0%, #09233C 50%, #051525 100%);
   color: #bdbdbd;
 }
 
