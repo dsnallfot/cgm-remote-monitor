@@ -341,8 +341,7 @@ a, a:visited, a:link {
 
 .bgButton {
   margin: 10px;
-  border: 2px solid #001627;
-  border-radius: 5px;
+  border: none;
   display: inline-block;
   width: 360px;
 }
@@ -412,7 +411,7 @@ a, a:visited, a:link {
   line-height: 15px;
   background: white;
   border: 0;
-  border-radius: 8px;
+  border-radius: 12px;
   float: right;
   min-width: 150px;
   max-width: 400px;
@@ -440,7 +439,7 @@ a, a:visited, a:link {
   font-size: 16px;
   white-space: nowrap;
   border-radius: 999px;
-  border: 2px solid #001627;
+  border: none;
   cursor: pointer;
   padding: 0px 2px;
 }
