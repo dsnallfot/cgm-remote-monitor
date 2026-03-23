@@ -324,7 +324,7 @@
     "This task removes all documents from treatments collection that are older than 180 days. Useful when uploader battery status is not properly updated.": "Denna uppgift tar bort alla dokument från behandlingar som är äldre än 180 dagar. Användbar när uppladdarens batteristatus inte är korrekt uppdaterad.",
     "Delete old documents from treatments collection?": "Ta bort gamla dokument från samlingen av behandlingar?",
     "Admin Tools": "Adminverktyg",
-    "Nightscout reporting": "Nightscout - Statistik",
+    "Nightscout reporting": "Rapporter",
     "Cancel": "Avbryt",
     "Edit treatment": "Redigera behandling",
     "Duration": "Varaktighet",
