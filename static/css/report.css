@@ -105,7 +105,8 @@ label {
 
 #rp_show {
   background-color: #ABD4FF;
-  border: 1px solid #15344c;
+  border: 2px solid #15344c;
+  border-radius: 999px;
   color: #000;
   padding: 10px;
   font-weight: bold;
