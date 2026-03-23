@@ -7,6 +7,8 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background: white;
+  color: black; 
 }
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -26,7 +28,7 @@ body {
   text-align: left;
   margin: 1em 0 0;
   font: bold 11pt verdana, arial, sans-serif;
-  border-bottom: 1px solid #6c6;
+  border-bottom: 1px solid #15344c;
   list-style-type: none;
   padding: 0 0 0 15px;
 }
@@ -34,17 +36,17 @@ body {
 #tabnav li {
   display: inline-block;
   padding: 10px 15px;
-  border-top: 1px solid #6c6;
-  border-right: 1px solid #6c6;
+  border-top: 1px solid #15344c;
+  border-right: 1px solid #15344c;
   border-bottom: none;
-  background-color: #cfc;
+  background-color: #8d97a5;
   color: #666;
   margin: 0 0 -1px 0;
   text-decoration: none;
 }
 
 #tabnav li:first-child {
-  border-left: 1px solid #6c6;
+  border-left: 1px solid #15344c;
 }
 
 #tabnav .selected  {
@@ -53,7 +55,7 @@ body {
 }
 
 #tabnav li:hover {
-  background: #9f9;
+  background: #ABD4FF;
   cursor:pointer;
 }
 
@@ -102,8 +104,8 @@ label {
 }
 
 #rp_show {
-  background-color: #cfc;
-  border: 1px solid #6c6;
+  background-color: #8d97a5;
+  border: 1px solid #15344c;
   color: #666;
   padding: 10px;
   font-weight: bold;
