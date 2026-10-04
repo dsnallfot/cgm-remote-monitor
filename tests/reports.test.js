@@ -399,8 +399,10 @@ describe('reports', function ( ) {
       $('#rp_optionsraw').prop('checked', true);
       $('#rp_optionsiob').prop('checked', true);
       $('#rp_optionscob').prop('checked', true);
-      $('#rp_enableeventtype').click();
-      $('#rp_enablenotes').click();
+      // This general rendering test expects unfiltered treatment rows.
+      // Row filtering is covered by report-treatment-filters.test.js.
+      $('#rp_enableeventtype').prop('checked', false);
+      $('#rp_enablenotes').prop('checked', false);
       $('#rp_enablefood').click();
       $('#rp_enablefood').click();
       $('#rp_log').prop('checked', true);
