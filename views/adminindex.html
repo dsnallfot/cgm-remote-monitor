@@ -42,6 +42,6 @@
 
     <script src="<%= locals.bundle %>/js/bundle.app.js"></script>
     <script src="/socket.io/socket.io.js"></script>
-    <script src="/admin/js/admin.js"></script>
+    <script src="<%= locals.asset('/admin/js/admin.js') %>"></script>
   </body>
 </html>

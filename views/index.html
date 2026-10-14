@@ -753,12 +753,12 @@
 
   <script src="<%= locals.bundle %>/js/bundle.app.js"></script>
   <script src="socket.io/socket.io.js"></script>
-  <script src="js/client.js"></script>
+  <script src="<%= locals.asset('/js/client.js') %>"></script>
 
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js', { scope: '/' }).then(function(reg) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/', updateViaCache: 'none' }).then(function(reg) {
           console.log('Service worker registered');
           reg.addEventListener('updatefound', () => {
             console.log('Service worker update detected');

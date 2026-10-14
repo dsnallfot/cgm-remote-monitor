@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const pluginArray = [];
+pluginArray.push(new (require('./build-version-plugin'))());
 const sourceMapType = 'source-map';
 const MomentTimezoneDataPlugin = require('moment-timezone-data-webpack-plugin');
 const projectRoot = path.resolve(__dirname, '..');
